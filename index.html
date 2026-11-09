@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michael G. Tan | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header & Top Navigation -->
+    <header>
+      <div class="nav-container">
+        <a href="index.html" class="logo">Michael Tan.</a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <button
+              id="theme-toggle"
+              class="theme-toggle"
+              aria-label="Toggle theme"
+            >
+              🌙 <span class="theme-text">Dark</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Interactive Hero Section -->
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <p class="hero-tag">Aspiring Web Developer</p>
+          <h1 class="hero-title">Hello, I'm <span>Michael G. Tan</span></h1>
+          <p class="hero-subtitle">
+            I build
+            <span
+              id="typed-text"
+              style="color: var(--primary); font-weight: 600"
+            ></span>
+          </p>
+          <p style="color: var(--text-muted); margin-bottom: 2rem">
+            Specializing in HTML, CSS, and modern JavaScript to create fast,
+            accessible, and responsive digital experiences for business needs
+            and passion projects.
+          </p>
+          <div class="hero-buttons">
+            <a href="contact.html" class="btn btn-primary">Work With Me</a>
+            <a href="skills.html" class="btn btn-secondary">Explore Skills</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=700&q=80"
+            alt="Modern developer workplace"
+            class="hero-img"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav-section" aria-label="Secondary bottom navigation">
+      <div class="bottom-nav-container">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Michael G. Tan. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
